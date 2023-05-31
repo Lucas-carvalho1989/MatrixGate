@@ -1,0 +1,52 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{border: 3px solid red;
+   max-width: 520px;
+    height: 520px;
+    margin:10% auto;
+    border-radius: 5px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin-top: 80px;
+
+}
+.passaword{margin-top:20px;
+    width: 420px;
+    height: 50px;
+     text-align: center;
+
+border-radius: 5px;
+
+border: 3px solid rgb(30, 27, 27);
+    
+}
+.email{
+    border: 3px solid rgb(30, 27, 27);
+    text-align: center;
+width: 420px;
+height: 50px;
+margin-top: 20px;
+
+border-radius: 5px;
+   
+}
+.button{ border: 3px solid rgb(30, 27, 27);
+    text-align: center;
+width: 420px;
+height: 50px;
+margin: 20px 0px 20px 0;
+font-weight: 400;
+border-radius: 5px;
+   
+
+}
+.senha{
+   color: black;
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+}
