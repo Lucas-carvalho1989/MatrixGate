@@ -2,15 +2,19 @@
     border: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
-div{border: 3px solid red;
+body{
+    background: -webkit-linear-gradient(left, #f5dcf8f6, #b5fadffc);
+}
+div{background-color: rgb(237, 253, 254);
    max-width: 520px;
     height: 520px;
     margin:10% auto;
     border-radius: 5px;
     text-align: center;
 }
-h1{
+h1{background-color: rgb(248, 248, 251) ;
     text-align: center;
     margin-top: 80px;
 
@@ -22,11 +26,10 @@ h1{
 
 border-radius: 5px;
 
-border: 3px solid rgb(30, 27, 27);
     
 }
 .email{
-    border: 3px solid rgb(30, 27, 27);
+    
     text-align: center;
 width: 420px;
 height: 50px;
@@ -35,7 +38,7 @@ margin-top: 20px;
 border-radius: 5px;
    
 }
-.button{ border: 3px solid rgb(30, 27, 27);
+.button{ 
     text-align: center;
 width: 420px;
 height: 50px;
