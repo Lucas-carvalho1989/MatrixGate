@@ -5,16 +5,16 @@
     
 }
 body{
-    background: -webkit-linear-gradient(left, #f5dcf8f6, #b5fadffc);
+    background: -webkit-linear-gradient(left,#9bada2 , #0ca74d98); 
 }
-div{background-color: rgb(237, 253, 254);
+div{background-color:rgba(227, 238, 234, 0.979);
    max-width: 520px;
     height: 520px;
     margin:10% auto;
     border-radius: 5px;
     text-align: center;
 }
-h1{background-color: rgb(248, 248, 251) ;
+h1{
     text-align: center;
     margin-top: 80px;
 
@@ -22,15 +22,15 @@ h1{background-color: rgb(248, 248, 251) ;
 .passaword{margin-top:20px;
     width: 420px;
     height: 50px;
-     text-align: center;
+    padding: 5px ;
 
 border-radius: 5px;
 
     
 }
-.email{
+.e-mail{
     
-    text-align: center;
+padding: 5px ;
 width: 420px;
 height: 50px;
 margin-top: 20px;
@@ -38,15 +38,18 @@ margin-top: 20px;
 border-radius: 5px;
    
 }
-.button{ 
-    text-align: center;
+.button{ background: -webkit-linear-gradient(left,#9bada2 , #0ca74d98); 
 width: 420px;
 height: 50px;
 margin: 20px 0px 20px 0;
-font-weight: 400;
+font-weight: 600;
 border-radius: 5px;
+cursor: pointer
    
 
+}
+.button:hover{
+    background: -webkit-linear-gradient(left,#667c6f , #0baf81af); 
 }
 .senha{
    color: black;
